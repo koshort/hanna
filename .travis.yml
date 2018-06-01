@@ -1,0 +1,21 @@
+language: python
+
+python:
+    - "3.3"
+    - "3.4"
+    - "3.5"
+    - "3.6"
+    - "3.7-dev" 
+
+before_install:
+    - pip install coveralls
+    - pip install pytest-cov
+
+# install:
+    # - 
+
+after_success:
+    - coveralls
+
+script:
+    - coverage run --source=hanna -m py.test tests
