@@ -18,4 +18,4 @@ after_success:
     - coveralls
 
 script:
-    - coverage run --source=hanna -m py.test tests
+    - coverage run --source=hannat -m py.test tests

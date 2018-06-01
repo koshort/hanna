@@ -15,6 +15,6 @@ def translit(text, lang="ja"):
         t: Transliterator for specific language
     """
 
-    cgi = importlib.import_module('hanna.cgi')
+    cgi = importlib.import_module('hannat.cgi')
     t = cgi.Translit()
     return getattr(t, lang)(text)

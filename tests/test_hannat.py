@@ -1,4 +1,4 @@
-from hanna import __version__
+from hannat import __version__
 
 
 def test_version():

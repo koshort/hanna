@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from hanna import translit
-from hanna.cgi import Translit
+from hannat import translit
+from hannat.cgi import Translit
 
 def test_translit():
     translit(u"かみ")

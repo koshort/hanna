@@ -2,7 +2,7 @@
 
 '''
 http://www.google.com/intl/ja/ime/cgiapi.html
->>>from hanna.cgi import Transliterator
+>>>from hannat.cgi import Transliterator
 >>>api = Transliterator()
 >>>result = api.ja('こんにちは')
 >>>print result[0][1][1]
